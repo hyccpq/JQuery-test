@@ -20,6 +20,7 @@ $(function () {
             .css({
                 "top":e.pageY+10+"px",
                 "left":e.pageX+10+"px"
+
             })
     })
 });
