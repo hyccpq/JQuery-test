@@ -12,7 +12,16 @@ a{
 #tooltip {
 
     border: 1px solid black;
-    display: inline;
+
     position: absolute;
     background: #ffffff;
+}
+.tooltip {
+    border: 1px solid black;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+}
+li{
+    display: inline-block;
 }

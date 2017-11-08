@@ -4,7 +4,7 @@ $(function () {
         this.title = "";
         var tooltip = "<div id='tooltip'>"+this.myTitle+"</div>";
         $("body").append(tooltip);
-        // console.log(e.pageX,e.pageY);
+        console.log(e.pageX,e.pageY);
         $("#tooltip")
             .css({
                 "top": e.pageY+10+"px",
